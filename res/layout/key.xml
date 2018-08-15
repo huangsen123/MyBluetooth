@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView android:text="请输入您的密码：" android:id="@+id/mima" 
+              android:layout_width="fill_parent" android:layout_height="wrap_content">
+    </TextView>
+    <EditText android:id="@+id/password" 
+	      android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="" >	 
+	</EditText>	
+	<TextView android:text="开锁键：" android:id="@+id/kaisuojian" 
+              android:layout_width="fill_parent" android:layout_height="wrap_content">
+    </TextView>
+    <Button android:id="@+id/kaikey" android:layout_height="wrap_content" 
+             android:layout_width="fill_parent" android:text="开"></Button>
+    <TextView android:text="关锁键：" android:id="@+id/guansuojian" 
+              android:layout_width="fill_parent" android:layout_height="wrap_content">
+    </TextView>
+    <Button android:text="   关    " android:id="@+id/guankey" android:layout_width="fill_parent"
+             android:layout_height="wrap_content">
+    </Button>
+  
+</LinearLayout>
